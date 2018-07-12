@@ -2,4 +2,38 @@
     ViewBag.Title = "Home Page";
 }
 
+<script>
+
+    $(document).ready(function () {
+        $('#rowTab a:first').tab('show');
+    });
+
+</script>
+
 <p>UPS PARKS</p>
+
+<ul id="rowTab" class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#tab_a">Floor 1</a></li>
+    <li><a data-toggle="tab" href="#tab_b">Floor 2</a></li>
+    <li><a data-toggle="tab" href="#tab_c">Floor 3</a></li>
+    <li><a data-toggle="tab" href="#tab_d">Floor 4</a></li>
+    <li><a data-toggle="tab" href="#tab_e">Floor 5</a></li>
+</ul>
+
+<div class="tab-content">
+    <div id="tab_a" class="tab-pane fade active in">
+        Tab A inner
+    </div>
+    <div id="tab_b" class="tab-pane fade">
+        Tab B inner
+    </div>
+    <div id="tab_c" class="tab-pane fade">
+        Tab C inner
+    </div>
+    <div id="tab_d" class="tab-pane fade">
+        Tab D inner
+    </div>
+    <div id="tab_e" class="tab-pane fade">
+        Tab E inner
+    </div>
+</div>
