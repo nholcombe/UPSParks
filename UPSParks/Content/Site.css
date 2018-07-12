@@ -1,6 +1,7 @@
 ﻿body {
     /*padding-top: 50px;*/
     padding-bottom: 20px;
+    background-color: white;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -25,8 +26,16 @@ textarea {
 
 #Title {
     background-color: black;
-    color: yellow;
+    color: white;
     font-size: 25pt;
     text-align: center;
     padding: 30px;
+}
+
+#f1 {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
 }
