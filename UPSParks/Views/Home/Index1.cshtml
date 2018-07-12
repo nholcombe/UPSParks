@@ -1,0 +1,45 @@
+﻿@model IEnumerable<UPSParks.Context.parking>
+
+@{
+    ViewBag.Title = "Index1";
+}
+
+<h2>Index1</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.floorID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.regionID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.isTaken)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.floorID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.regionID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.isTaken)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.sensorID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.sensorID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.sensorID })
+        </td>
+    </tr>
+}
+
+</table>
