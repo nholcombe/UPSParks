@@ -11,10 +11,15 @@ namespace UPSParks.Controllers
     {
 
         GTSFactoryEntities db = new GTSFactoryEntities();
-
+        
         public ActionResult Index()
         {
-            db.parkings
+            ViewBag.Floor1 = db.parkings.Where(x => (x.isTaken == true) && (x.floorID == 1)).Count();
+            ViewBag.Floor2 = db.parkings.Where(x => (x.isTaken == true) && (x.floorID == 2)).Count();
+            ViewBag.Floor3 = db.parkings.Where(x => (x.isTaken == true) && (x.floorID == 3)).Count();
+            ViewBag.Floor4 = db.parkings.Where(x => (x.isTaken == true) && (x.floorID == 4)).Count();
+            ViewBag.Floor5 = db.parkings.Where(x => (x.isTaken == true) && (x.floorID == 5)).Count();
+
             return View();
         }
 
