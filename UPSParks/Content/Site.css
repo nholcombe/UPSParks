@@ -102,7 +102,7 @@ span.num {
     position: relative;
     text-align: center;
     color: black;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 
 .quad1 {

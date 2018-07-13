@@ -214,6 +214,9 @@
     </Content>
     <Content Include="Content\floor3.0010fa95f33e4c9789e0e850f0e219f2" />
     <Content Include="Content\floor2.2f98c5dd01704f79b15d61a2ee0d00cf" />
+    <Content Include="Content\floor4.927a4b7dffb740a78b1c9aba5958e54d" />
+    <Content Include="Content\floor5.4e32a766e52547fcaa1b65e2b50088fe" />
+    <Content Include="Content\floor1.ff199f57eb2b42549ae4eb0dd3e4bf36" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
