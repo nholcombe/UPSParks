@@ -110,6 +110,7 @@ span.num {
     left: 48%;
     top: 100px;
     background-color: green;
+    color: white;
     text-align: center;
     width: 50px;
     font-size: 25pt;
@@ -120,6 +121,7 @@ span.num {
     left: 190px;
     top: 650px;
     background-color: green;
+    color: white;
     text-align: center;
     width: 50px;
     font-size: 25pt;
@@ -130,6 +132,7 @@ span.num {
     left: 415px;
     top: 650px;
     background-color: green;
+    color: white;
     text-align: center;
     width: 50px;
     font-size: 25pt;
@@ -140,6 +143,7 @@ span.num {
     right: 415px;
     top: 650px;
     background-color: green;
+    color: white;
     text-align: center;
     width: 50px;
     font-size: 25pt;
@@ -150,6 +154,7 @@ span.num {
     right: 190px;
     top: 650px;
     background-color: green;
+    color: white;
     text-align: center;
     width: 50px;
     font-size: 25pt;
@@ -160,6 +165,7 @@ span.num {
     right: 48%;
     top: 1000px;
     background-color: green;
+    color: white;
     text-align: center;
     width: 50px;
     font-size: 25pt;
