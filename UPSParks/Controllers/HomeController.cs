@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Arduino;
 using UPSParks.Context;
 
 namespace UPSParks.Controllers
@@ -82,7 +83,27 @@ namespace UPSParks.Controllers
                 five = db.parkings.Where(x => (x.isTaken == true) && /*(x.floorID == 1) &&*/ (x.regionID == "5Q5")).Count()
             };
 
+            Serial ser = new Serial();
 
+            ViewBag.serial = ser.GetSerial();
+
+            var Serial = Convert.ToBoolean(ser.GetSerial());
+              
+
+            var query = from x in db.parkings
+                        where x.sensorID == 1006
+                        select x;
+
+            // Execute the query, and change the column values
+            // you want to change.
+            foreach (parking x in query)
+            {
+                x.isTaken = Serial;
+               
+                // Insert any additional changes to column values.
+            }
+
+            db.SaveChanges();
 
             ViewBag.Floor1 = floor1;
             ViewBag.Floor2 = floor2;
@@ -90,7 +111,9 @@ namespace UPSParks.Controllers
             ViewBag.Floor4 = floor4;
             ViewBag.Floor5 = floor5;
 
+            
 
+            //correct copy
 
             return View();
         }

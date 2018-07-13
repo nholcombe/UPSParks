@@ -54,6 +54,13 @@ a {
     font-family: 'ABeeZee';
 }
 
+#Title1 {
+    color: black;
+    font-size: 35pt;
+    text-align: center;
+    font-family: 'ABeeZee';
+}
+
 #f1 {
     color: white;
     padding: 15px;
