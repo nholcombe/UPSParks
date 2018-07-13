@@ -107,66 +107,78 @@ span.num {
 
 .quad1 {
     position: absolute;
-    left: 48%;
-    top: 100px;
-    background-color: green;
+    left: 45.5%;
+    top: 60px;
+    background-color: #FF0E00;
     color: white;
     text-align: center;
-    width: 50px;
-    font-size: 25pt;
+    width: 100px;
+    font-size: 60pt;
+    border-radius: 50%;
+    font-family: 'ABeeZee'
 }
 
 .quad2 {
     position: absolute;
-    left: 190px;
-    top: 650px;
-    background-color: green;
+    left: 170px;
+    top: 620px;
+    background-color: #FF0E00;
     color: white;
     text-align: center;
-    width: 50px;
-    font-size: 25pt;
+    width: 100px;
+    font-size: 60pt;
+    border-radius: 50%;
+    font-family: 'ABeeZee'
 }
 
 .quad3 {
     position: absolute;
-    left: 415px;
-    top: 650px;
-    background-color: green;
+    left: 395px;
+    top: 620px;
+    background-color: #FF0E00;
     color: white;
     text-align: center;
-    width: 50px;
-    font-size: 25pt;
+    width: 100px;
+    font-size: 60pt;
+    border-radius: 50%;
+    font-family: 'ABeeZee'
 }
 
 .quad4 {
     position: absolute;
-    right: 415px;
-    top: 650px;
-    background-color: green;
+    right: 395px;
+    top: 620px;
+    background-color: #FF0E00;
     color: white;
     text-align: center;
-    width: 50px;
-    font-size: 25pt;
+    width: 100px;
+    font-size: 60pt;
+    border-radius: 50%;
+    font-family: 'ABeeZee'
 }
 
 .quad5 {
     position: absolute;
-    right: 190px;
-    top: 650px;
-    background-color: green;
+    right: 170px;
+    top: 620px;
+    background-color: #FF0E00;
     color: white;
     text-align: center;
-    width: 50px;
-    font-size: 25pt;
+    width: 100px;
+    font-size: 60pt;
+    border-radius: 50%;
+    font-family: 'ABeeZee'
 }
 
 .quad6 {
     position: absolute;
-    right: 48%;
-    top: 1000px;
-    background-color: green;
+    right: 45.5%;
+    top: 975px;
+    background-color: #FF0E00;
     color: white;
     text-align: center;
-    width: 50px;
-    font-size: 25pt;
+    width: 100px;
+    font-size: 60pt;
+    border-radius: 50%;
+    font-family: 'ABeeZee'
 }
