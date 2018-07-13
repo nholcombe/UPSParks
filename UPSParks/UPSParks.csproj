@@ -239,6 +239,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Home\Index1.cshtml" />
+    <Content Include="Views\Home\Floors.cshtml" />
+    <Content Include="Views\Shared\homepage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

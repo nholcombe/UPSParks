@@ -5,12 +5,12 @@
 
 <div id="tab_a" class="tab-pane fade active in">
     <div id="f1">
-        <h1>Floor 1: @ViewBag.Floor1</h1>
-        <h1>Floor 2: @ViewBag.Floor2</h1>
-        <h1>Floor 3: @ViewBag.Floor3</h1>
-        <h1>Floor 4: @ViewBag.Floor4</h1>
-        <h1>Floor 5: @ViewBag.Floor5</h1>
-        <h1>Handicap Spots</h1>
+        <h1>Floor 1: <span style="background:linear-gradient(red,blue); color: red;">&nbsp; @ViewBag.Floor1 &nbsp;</span></h1>
+        <h1>Floor 2: <span style="background-color:grey; color: red;">@ViewBag.Floor2</span></h1>
+        <h1>Floor 3: <span style="background-color:grey; color: red;">@ViewBag.Floor3</span></h1>
+        <h1>Floor 4: <span style="background-color:grey; color: red;">@ViewBag.Floor4</span></h1>
+        <h1>Floor 5: <span style="background-color:grey; color: red;">@ViewBag.Floor5</span></h1>
+        <h1 id="left">Handicap Spots</h1>
     </div>
 
     @Html.ActionLink("Floor Page", "Floors", "Home", new { @id = "button1", @class = "btn btn-warningHome" })<br />

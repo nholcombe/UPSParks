@@ -3288,6 +3288,9 @@ fieldset[disabled] .btn-info.focus {
   color: #fff;
   background-color: #f0ad4e;
   border-color: #eea236;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 .btn-warning:focus,
 .btn-warning.focus {
