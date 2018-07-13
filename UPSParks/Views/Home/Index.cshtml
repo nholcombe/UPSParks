@@ -5,13 +5,13 @@
 <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
 <div id="tab_a" class="tab-pane fade active in">
     <div id="f1">
-        <h1>Floor 1: <span class="num">&nbsp; @ViewBag.Floor1 &nbsp;</span></h1>
-        <h1>Floor 2: <span class="num">&nbsp; @ViewBag.Floor2 &nbsp;</span></h1>
-        <h1>Floor 3: <span class="num">&nbsp; @ViewBag.Floor3 &nbsp;</span></h1>
-        <h1>Floor 4: <span class="num">&nbsp; @ViewBag.Floor4 &nbsp;</span></h1>
-        <h1>Floor 5: <span class="num">&nbsp; @ViewBag.Floor5 &nbsp;</span></h1>
-        <h1>Handicap Spots</h1>
+        <h1>Floor 1: <span class="num">&nbsp; @ViewBag.Floor1 &nbsp;</span></h1><br />
+        <h1>Floor 2: <span class="num">&nbsp; @ViewBag.Floor2 &nbsp;</span></h1><br />
+        <h1>Floor 3: <span class="num">&nbsp; @ViewBag.Floor3 &nbsp;</span></h1><br />
+        <h1>Floor 4: <span class="num">&nbsp; @ViewBag.Floor4 &nbsp;</span></h1><br />
+        <h1>Floor 5: <span class="num">&nbsp; @ViewBag.Floor5 &nbsp;</span></h1><br />
+        <h1>Handicap: <span class="num">&nbsp; @ViewBag.Floor5 &nbsp;</span></h1><br /><br />
     </div>
 
-    @Html.ActionLink("Floor Page", "Floors", "Home", new { @id = "button1", @class = "btn btn-warningHome" })<br />
+    @Html.ActionLink("View Floors", "Floors", "Home", new { @id = "button1", @class = "btn btn-warningHome" })<br />
 </div>
