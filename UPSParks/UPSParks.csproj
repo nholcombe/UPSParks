@@ -212,6 +212,8 @@
     <Content Include="Context\UPSParksData.edmx.diagram">
       <DependentUpon>UPSParksData.edmx</DependentUpon>
     </Content>
+    <Content Include="Content\floor3.0010fa95f33e4c9789e0e850f0e219f2" />
+    <Content Include="Content\floor2.2f98c5dd01704f79b15d61a2ee0d00cf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
