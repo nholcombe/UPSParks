@@ -88,3 +88,12 @@ span.num {
     margin-left: auto;
     margin-right: auto;
 }
+
+#map {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
