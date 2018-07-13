@@ -43,7 +43,6 @@ a {
     width: 150px;
     font-family: 'ABeeZee';
     color: #0f0e0f;
-    text-shadow: 2px 2px 3px #0f0e0f;
 }
 
 #Title {
@@ -51,7 +50,7 @@ a {
     color: white;
     font-size: 25pt;
     text-align: center;
-    
+    font-family: 'ABeeZee';
 }
 
 #f1 {
